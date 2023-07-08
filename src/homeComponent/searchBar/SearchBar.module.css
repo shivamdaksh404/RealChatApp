@@ -1,0 +1,50 @@
+.mainDiv{
+    /* background-color: rgb(15, 28, 70); */
+    /* height: 10%; */
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    
+}
+
+.searchField{
+     padding: 10px;
+}
+ .searchField>input{
+        background:transparent;
+        border: none;
+        color: white ;
+        outline: none;
+        width: 100%;
+        &::placeholder{
+            color: lightgray;
+
+        }
+    
+
+}
+
+.userChat{
+padding: 10px;
+display: flex;
+align-items: center;
+gap: 10px;
+color: white;
+cursor: pointer;
+
+&:hover{
+    background-color: #2f2d52;
+}
+}
+.userChat>img{
+    
+        height: 40px;
+        width: 40px;
+        border-radius: 50%;
+        object-fit: cover;
+    
+}
+
+.userChatInfo{
+
+}

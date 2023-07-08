@@ -1,0 +1,45 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    background: grey;
+    align-items: center;
+    padding: 10px;
+}
+
+.userDiv{
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    align-items: center;
+}
+   .userDiv>button{
+
+        display: inline-block;
+        outline: 0;
+        cursor: pointer;
+        border-radius: 6px;
+        border: 2px solid #22212165;
+        color: #ffffff;
+        background: 0 0;
+        padding: 4px;
+        box-shadow: rgba(0, 0, 0, 0.07) 0px 2px 4px 0px, rgba(0, 0, 0, 0.05) 0px 1px 1.5px 0px;
+        font-weight: 550;
+        /* height: 42px; */
+    }
+    .userDiv>button:hover{
+            background-color: #2b2626;
+            color: #fff;
+        }
+        
+    
+
+.logo{
+    font-weight: bolder;
+}
+
+.img{
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    object-fit: cover;
+}
